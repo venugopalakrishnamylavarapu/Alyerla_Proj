@@ -83,9 +83,26 @@ const footerHTML = `
       </div>
     </div>
   </div>
+<div>  <ul class="d-flex float-right m-0">
+<li class="d-inline m-1 p-1 text-white "><a href="mail-to:info@alyerla.com"><i class="fa fa-envelope"
+      aria-hidden="true"></i></a></li>
+<li class="d-inline m-1 p-1 text-white "><a href="9000147197"><i class="fa fa-phone" aria-hidden="true"></i></a>
+</li>
+<li class="d-inline m-1 p-1 text-white "><a href="https://www.linkedin.com/company/alyerla/"><i class="fa fa-linkedin"
+      aria-hidden="true"></i></a></li>
+<li class="d-inline m-1 p-1 text-white "><a href="#"><i class="fa fa-facebook"
+      aria-hidden="true"></i></a></li>
+<li class="d-inline m-1 p-1 text-white "><a href="#"><i class="fa fa-instagram"
+      aria-hidden="true"></i></a></li>
+<li class="d-inline m-1 p-1 text-white "><a href="9000147197"><i class="fa fa-whatsapp"
+      aria-hidden="true"></i></a>
+</li>
+</ul></div>
 
 </div>
+<div class="links">
 
+</div>
 <div class="text-center my-3">
   <p class="d-inline text-white">Copyright @2023 All Rights Reserved | this site made by <i>Alyerla</i></p>
 </div>

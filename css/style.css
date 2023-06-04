@@ -249,11 +249,12 @@ carusel-img {
 }
 
 .services .card-title {
-    color: #063970;
+    color: #000000;
 }
 
 .services .card {
     border: 0px;
+    box-shadow: 0px 0px 15px white;
 }
 
 
@@ -479,20 +480,18 @@ carusel-img {
     font-size: 1rem !important;
 }
 
-.links a i {
-    font-size: medium;
-    color: #ff9595;
-    font-size: 18px;
-}
-
 .footersection li a {
     font-size: 0.9rem;
     line-height: 1.6;
     font-weight: 400;
-    color: orange;
+    color: white;
     text-transform: capitalize;
     text-align: center;
     text-decoration: none;
+}
+
+.footersection li a:hover {
+    color: orange;
 }
 
 #calibri-body li:hover a {
@@ -805,10 +804,9 @@ footer div p {
 /***************************SMART CLEANING STARTS**********************/
 
 .smart-pic1 {
-    width: 300px;
-    height: 400px;
+    width: 800px;
+    height: 600px;
     padding-left: 5px;
-    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
     background-size: 100% 100%;
     position: relative;
 }
@@ -829,7 +827,6 @@ footer div p {
     width: 300px;
     height: 400px;
     margin-bottom: 15px;
-    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
     background-size: 100% 100%;
     position: relative;
 }
@@ -850,25 +847,22 @@ footer div p {
 .eng-header {
     width: 100%;
     height: 100vh;
-    background-image: url('../images/engineeringServices.jpeg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
 }
 
 .eng-pic {
-    width: 300px;
+    width: 600px;
     height: 400px;
     padding-left: 25px;
-    background-image: url('../images/ene-2.webp');
     background-repeat: no-repeat;
-    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
     background-size: 100% 100%;
     position: relative;
 }
 
 .smart-text {
-    color: #063970;
+    color: orange;
     font-weight: 800;
     font-size: 75px;
 }
@@ -909,9 +903,8 @@ footer div p {
 }
 
 .plant-pic2 {
-    width: 250px;
+    width: 1080px;
     height: auto;
-    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
     position: relative;
 }
 
@@ -938,8 +931,8 @@ footer div p {
 }
 
 .green-pic {
-    width: 280px;
-    height: 400px;
+    width: 1600x;
+    height: 800px;
     position: relative;
     margin-bottom: 25px;
 }
@@ -1051,11 +1044,8 @@ footer div p {
 }
 
 .pest-pic {
-    width: 300px;
+    width: 800px;
     height: auto;
-    background-image: url('../images/pest2.webp');
-    background-repeat: no-repeat;
-    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
     background-size: 100% 100%;
     position: relative;
     margin-bottom: 15px;
@@ -1085,9 +1075,8 @@ footer div p {
 }
 
 .security-pic {
-    width: 300px;
+    width: 800px;
     height: auto;
-    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
     background-size: 100% 100%;
     position: relative;
 }
