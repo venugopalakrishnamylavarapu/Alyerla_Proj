@@ -44,7 +44,7 @@ const footerHTML = `
     <hr style="color: white; border-top: 5px solid; ">
   </div>
   
-  <div class="col-lg-4 col-md-12 d-md-block  col-12 m-auto footer-div">
+  <div class="col-lg-6 col-md-12 d-md-block  col-12 m-auto footer-div">
     <div class=" d-flex justify-content-center">
       <div class=" text-center">
         <div class="align-center">
@@ -53,19 +53,8 @@ const footerHTML = `
       </div>
     </div>
   </div>
-  <div class="col-lg-4 col-md-6 col-12  d-flex justify-content-center footer-div">
-    <div class="">
-      <h3 id="calibri" style="color:orange">COMPANY</h3>
-      <ul id="calibri-body">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="service.html">Service</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-      </ul>
-    </div>
-  </div>
 
-  <div class="col-lg-4 col-md-6 col-12  d-flex justify-content-center footer-div">
+  <div class="col-lg-6 col-md-6 col-12  d-flex justify-content-center footer-div">
     <div class="w-100">
       <h3 id="calibri" style="color:orange">Get in Touch</h3>
       <div class="links">
@@ -104,7 +93,7 @@ const footerHTML = `
 
 </div>
 <div class="text-center my-3">
-  <p class="d-inline text-white">Copyright @2023 All Rights Reserved | this site made by <i>Alyerla</i></p>
+  <p class="d-inline text-white">Copyrights Reserved | Alyerla™</p>
 </div>
 
 
