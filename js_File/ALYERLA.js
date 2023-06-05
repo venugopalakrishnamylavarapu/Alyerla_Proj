@@ -2,7 +2,7 @@ const homeHeaderHTML = `
 <div class="headerr position-relative">
     <div class="fixed-top header-color">
         <nav class="navbar navbar-expand-lg navbar-light container p-0">
-            <a class="navbar-brand ms-2 text-white" href="index.html"><img src="../images/ALYERLA2.png" style="width:70px"alt="logo"></a>
+            <a class="navbar-brand ms-2 text-white" href="index.html"><img src="./images/ALYERLA2.png" style="width:60px" alt="logo"></a>
             <span class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa fa-bars text-white" aria-hidden="true"></i>   
             </span>
@@ -29,8 +29,7 @@ const homeHeaderHTML = `
 
 <div class="header-content position-absolute">
     <div class="cen-div ">
-       <span style="font-weight:800;font-size:50px;color:rgb(244, 171, 12);">ALYERLA</span>
-       <span style="font-weight:150;font-size:
+       <span style="font-weight:800;font-size:50px;color:Yellow;">ALYERLA</span>
     </div>
 </div>
 </div>`
@@ -56,7 +55,7 @@ const footerHTML = `
 
   <div class="col-lg-6 col-md-6 col-12  d-flex justify-content-center footer-div">
     <div class="w-100">
-      <h3 id="calibri" style="color:orange">Get in Touch</h3>
+      <center><h3 id="calibri" style="color:orange">Get in Touch</h3></center>
       <div class="links">
         <ul class="row m-0">
           <li class="d-inline ">
@@ -106,7 +105,7 @@ const gnHeaderHTML = `<div class="menu-bar sticky-top">
     <a class="navbar-brand ms-2 text-white" href="index.html"><img src="./images/ALYERLA2.png" style="width:70px" alt="logo""></a>
     <span class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav"
       aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <i class="fa fa-bars text-white" aria-hidden="true"></i>  
     </span>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
